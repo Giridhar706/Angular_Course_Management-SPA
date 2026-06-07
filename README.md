@@ -70,3 +70,11 @@ Output lands in `dist/edulearn-course-manager/`.
 - **TypeScript**
 - **CSS** (no framework)
 - **Angular FormsModule** (for `ngModel`)
+
+```
+
+# 👨‍💻 Author
+
+Giridhar Gopal
+
+```
