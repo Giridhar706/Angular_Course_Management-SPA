@@ -1,0 +1,29 @@
+<div class="detail-container" *ngIf="course">
+  <h2>Course Details</h2>
+
+  <div class="detail-card">
+    <div class="field">
+      <label for="title">Title:</label>
+      <input id="title" type="text" [(ngModel)]="course.title" />
+    </div>
+
+    <div class="field">
+      <label>Description:</label>
+      <p class="value">{{ course.description }}</p>
+    </div>
+
+    <div class="field">
+      <label>Instructor:</label>
+      <p class="value">{{ course.instructor }}</p>
+    </div>
+
+    <div class="field">
+      <label>Course ID:</label>
+      <p class="value">{{ course.id }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="no-selection" *ngIf="!course">
+  <p>Select a course from the list above to view its details.</p>
+</div>
